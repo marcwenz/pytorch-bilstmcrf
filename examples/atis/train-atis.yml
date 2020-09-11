@@ -1,9 +1,8 @@
 input-path: [data/train/words.txt, data/train/nes.txt]
 label-path: data/train/labels.txt
 save-dir: bilstmcrf-results
-gpu: [0]
 tensorboard: false
-epochs: 100
+epochs: 10
 dropout-prob: 0.05
 batch-size: 256
 ckpt-period: 10e
